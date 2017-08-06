@@ -31,23 +31,7 @@ h2 {
     margin-top: 1.3em;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    float: left;
-}
-
-a {
-    display: block;
-    padding: 8px;
-    background-color: #333;
-}
-
-ul {
+#Navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -55,7 +39,7 @@ ul {
     background-color: #333;
 }
 
-li {
+#navlink {
     float: left;
 }
 
@@ -67,9 +51,10 @@ li a {
     text-decoration: none;
 }
 
-
-/* Change the link color to #111 (black) on hover */
-
 li a:hover {
     background-color: #111;
+}
+
+#usefulimg {
+    text-align: center;
 }
