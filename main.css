@@ -57,6 +57,10 @@ li a:hover {
     background-color: #111;
 }
 
+li a:active {
+    background-color: #111;
+}
+
 #usefulimg {
     text-align: center;
 }
