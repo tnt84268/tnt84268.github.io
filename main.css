@@ -39,6 +39,7 @@ h2 {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position:relative;
 }
 
 #navlink {
