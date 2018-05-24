@@ -13,7 +13,8 @@
     <title>Develpment</title>
     <meta name="description" content="My Personal Website">
     <link rel="stylesheet" href="main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    <script type="text/javascript" src="nationFinder.js"></script>
     <script>
         $(function() {
             $("#navbar-place").load("navbar.html");
@@ -21,18 +22,12 @@
 
     </script>
     <div id="navbar-place">
-
     </div>
 </head>
 
 <body>
-    <h2>Reminders</h2>
-    <ul>
-        <li>Make background an image</li>
-        <li>Add more useful links</li>
-    </ul>
-    
-
+    <input type="button" value="Submit" onclick="mainFunction();" />
+    <p id="changeText">Not done</p>
 </body>
 
 </html>
