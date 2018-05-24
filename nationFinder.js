@@ -5,6 +5,6 @@ function mainFunction() {
     document.getElementById("changeText").innerHTML = this.responseText;
         }
     };
-    nationsResponse.open("GET", "https://politicsandwar.com/api/nations/", true);
+    nationsResponse.open("GET", "http://cors.io/?https://politicsandwar.com/api/nations/", true);
     nationsResponse.send();
 }
